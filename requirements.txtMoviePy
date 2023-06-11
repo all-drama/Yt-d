@@ -3,3 +3,4 @@ streamlit
 validators
 tqdm
 yt_dlp == 2023.3.4
+MoviePy
