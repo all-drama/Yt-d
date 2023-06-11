@@ -1,5 +1,6 @@
 ffmpeg == 1.4
+Pillow==9.0.1
 streamlit
 pytube
-youtube_dl
-yt_dlp == 2023.3.4
+
+
