@@ -2,4 +2,4 @@ pytube
 streamlit
 validators
 tqdm
-youtube_dl
+yt_dlp == 2023.3.4
