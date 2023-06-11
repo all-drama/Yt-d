@@ -40,12 +40,12 @@ def extract_links(url):
         return None
 
 def main():
-    st.title("Video URL Extractor")
+    st.title("Yt Video Downloader")
 
     # Get YouTube URL from user input
     url = st.text_input("Enter YouTube URL")
 
-    if st.button("Extract Video URL", key="extract"):
+    if st.button("Extract Downloadabale URL", key="extract"):
         if url:
             with st.spinner("Extracting..."):
                 video_url = extract_links(url)
