@@ -29,7 +29,8 @@ def main():
                     ''',
                     unsafe_allow_html=True
                 )
-                st.markdown(f'<a href="{video_url}" target="_blank">Download Video</a>', unsafe_allow_html=True)
+                st.markdown(f'<p style="text-align:center;font-size:18px;"><a href="{video_url}" target="_blank" style="color:blue;text-decoration:none;">Download Video</a></p>', unsafe_
+                            allow_html=True)
             else:
                 st.error("Failed to extract video URL.")
 
