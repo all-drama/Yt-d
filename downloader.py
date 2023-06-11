@@ -23,7 +23,8 @@ def video(url):
     resolutions = list(resolution_dict.keys())
 
     # Display resolution options
-    resolution = st.selectbox("Select Video Resolution", resolutions)
+    resolution = st.selectbox("Select Video Resolution", resolutions, key="resolution_sele
+                              ct")
 
     # Find the selected stream based on the resolution string
     selected_stream = resolution_dict.get(resolution)
