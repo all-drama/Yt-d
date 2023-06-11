@@ -33,7 +33,7 @@ st.markdown(
 
 def extract_links(url):
     try:
-        video_output = subprocess.check_output(['yt-dlp', '--get-url', '-f', 'best', url])
+        video_output = subprocess.check_output(['yt-dlp', '--get-url', url])
         video_link = video_output.decode().strip()
         return video_link
     except subprocess.CalledProcessError:
