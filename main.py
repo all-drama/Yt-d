@@ -2,6 +2,9 @@ import subprocess
 import streamlit as st
 import os
 
+
+from urllib.parse import urlparse
+
 # CSS styles
 st.markdown(
     """
