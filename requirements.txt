@@ -1,4 +1,4 @@
-pytube
+ffmpeg
 streamlit
 validators
 tqdm
