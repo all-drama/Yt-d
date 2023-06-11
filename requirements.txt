@@ -2,3 +2,4 @@ pytube
 streamlit
 validators
 tqdm
+youtube_dl
