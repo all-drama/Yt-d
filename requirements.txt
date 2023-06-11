@@ -1,4 +1,4 @@
 ffmpeg == 1.4
 streamlit
-
+pytube
 yt_dlp == 2023.3.4
